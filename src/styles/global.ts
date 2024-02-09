@@ -9,16 +9,19 @@ export const GlobalStyle = createGlobalStyle`
   
   :focus {
     outline: 0;
-    box-shadow: 0 0 0 2px ${(props) => props.theme['green-500']};
+    box-shadow: 0 0 0 2px ${(props) => props.theme.blue};
   }
   
   body {
     background: ${(props) => props.theme['gray-800']};
-    color: ${(props) => props.theme['gray-100']};
     -webkit-font-smoothing: antialiased;
   }
 
   body, input, textarea, button, h1, h2, h3, h4, h5, h6 {
     font: 400 1rem Nunito, sans-serif;
   }
+
+main {
+  width: 100%;
+}
 `;

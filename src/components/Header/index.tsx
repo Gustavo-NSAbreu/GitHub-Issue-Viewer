@@ -1,7 +1,9 @@
+import header from '../../assets/header.svg'
+
 export default function Header() {
   return (
     <header>
-      <h1>GitHub Issue Viewer</h1>
+      <img src={header} alt="" />
     </header>
   );
 }

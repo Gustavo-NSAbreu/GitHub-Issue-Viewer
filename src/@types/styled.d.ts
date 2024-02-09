@@ -1,5 +1,5 @@
 import 'styled-components';
-import { defaultTheme } from '../../../03-dt-money/src/styles/themes/default';
+import { defaultTheme } from '../styles/themes/default';
 
 type ThemeType = typeof defaultTheme;
 
